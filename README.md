@@ -62,7 +62,6 @@ No external dependencies are required.
 - **Small Primes**: This implementation uses small prime numbers (100 to 1000) for simplicity. Real-world RSA uses much larger primes (e.g., 2048-bit) for security.
 - **No Padding**: The code does not implement padding schemes like OAEP, making it unsuitable for production use.
 - **Character-by-Character Encryption**: The implementation encrypts each character individually, which is inefficient and insecure for real applications.
-- **Educational Purpose**: This code is designed for learning and demonstration, not for secure communication.
 
 ## Security Notes
 - Use large prime numbers (e.g., 2048-bit or higher) in production systems.
@@ -74,4 +73,4 @@ No external dependencies are required.
 - No external code was directly adapted.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details (not included in this repository).
+This project is licensed under the MIT License. 
